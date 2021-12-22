@@ -23,6 +23,12 @@ public class Confettie : MonoBehaviour
         yield return new WaitForSecondsRealtime(0.4f);
         confetties[2].Play();
         confetties[3].Play();
-            //confetiSound.Play();
+        yield return new WaitForSecondsRealtime(0.4f);
+        confetties[4].Play();
+        confetties[5].Play();
+        //confetiSound.Play();
+        yield return new WaitForSecondsRealtime(0.4f);
+        confetties[6].Play();
+        confetties[7].Play();
     }
 }

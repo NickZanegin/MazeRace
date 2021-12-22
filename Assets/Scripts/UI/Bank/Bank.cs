@@ -5,9 +5,9 @@ public class Bank : MonoBehaviour
 {
     [SerializeField] RaisedCoins raisedCoins;
     [SerializeField] RestartState restart;
+    [SerializeField] int keys = 3;
 
     public Action eventBankUpdate;
-    int keys = 3;
     private void Start()
     {
         raisedCoins.eventPickUp += AddCoins;

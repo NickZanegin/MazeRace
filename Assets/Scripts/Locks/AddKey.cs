@@ -4,6 +4,7 @@ public class AddKey : MonoBehaviour
 {
     [SerializeField] GameObject key;
     [SerializeField] Material green;
+    [SerializeField] ParticleSystem effect;
     public void FinishLvl()
     {
         Add();
@@ -19,6 +20,8 @@ public class AddKey : MonoBehaviour
     private void Add()
     {
         key.SetActive(true);
+        effect.transform.position = transform.position;
         GetComponent<MeshRenderer>().material = green;
+        effect.Play();
     }
 }

@@ -3,7 +3,6 @@ using UnityEngine;
 public class SubscriptionManager : MonoBehaviour
 {
     [SerializeField] Move move;
-    [SerializeField] Timer timer;
     [SerializeField] LoseScreen loseScreen;
     Finish finish;
     private void Start()
@@ -16,8 +15,6 @@ public class SubscriptionManager : MonoBehaviour
         this.finish = finish;
         finish.eventFaill += move.Faill;
         finish.eventWinn += move.Winn;
-        finish.eventWinn += timer.StopTimer;
-        finish.eventFaill += timer.StopTimer;
         finish.eventFailCamera += loseScreen.GoToFinish;
         finish.SetBank(bank);
     }
@@ -25,8 +22,6 @@ public class SubscriptionManager : MonoBehaviour
     {
         finish.eventFaill -= move.Faill;
         finish.eventWinn -= move.Winn;
-        finish.eventWinn -= timer.StopTimer;
-        finish.eventFaill -= timer.StopTimer;
         finish.eventFailCamera -= loseScreen.GoToFinish;
     }
 }

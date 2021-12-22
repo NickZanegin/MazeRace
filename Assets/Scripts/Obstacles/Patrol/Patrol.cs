@@ -7,10 +7,11 @@ public class Patrol : MonoBehaviour
     WaitForSecondsRealtime thinking;
     [SerializeField] Transform[] points;
     [SerializeField] NavMeshAgent agent;
+    [SerializeField] int thinkingTime = 4;
     int pointIndex = 0;
     void Start()
     {
-        thinking = new WaitForSecondsRealtime(4);
+        thinking = new WaitForSecondsRealtime(thinkingTime);
         GoToNewPoint();
     }
     private void GoToNewPoint()

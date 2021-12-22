@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class Dead : MonoBehaviour
+public class Dead : MonoBehaviour, IMortal
 {
     [SerializeField] ParticleSystem death;
     [SerializeField] CameraFolow camera;

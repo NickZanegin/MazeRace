@@ -30,8 +30,8 @@ public class StartTimer : MonoBehaviour
         timer.gameObject.transform.localScale = backScale;
         UpScale(3);
         yield return wait;
-        timer.gameObject.SetActive(false);
         eventStart?.Invoke();
+        gameObject.SetActive(false);
     }
     private void UpScale(int index)
     {

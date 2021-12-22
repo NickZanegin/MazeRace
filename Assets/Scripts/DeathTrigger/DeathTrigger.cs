@@ -1,14 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DeathTrigger : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<Dead>())
+        if (other.GetComponent<Dead>() || other.GetComponent<Enemys.Dead>())
         {
-            other.GetComponent<Dead>().Restart();
+            other.GetComponent<IMortal>().Restart();
         }
     }
 }

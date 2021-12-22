@@ -1,9 +1,7 @@
 using UnityEngine;
-using UnityEngine.AI;
 
 public class GameState : MonoBehaviour
 {
-    [SerializeField] Timer time;
     [SerializeField] Move controller;
     [SerializeField] MoveToPoints[] enemys;
     [SerializeField] StartTimer start;
@@ -18,7 +16,6 @@ public class GameState : MonoBehaviour
     }
     private void CangeState(bool state)
     {
-        time.enabled = state;
         controller.enabled = state;
         for (int i = 0; i < enemys.Length; i++)
         {
