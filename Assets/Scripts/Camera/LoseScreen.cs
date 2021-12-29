@@ -6,10 +6,10 @@ public class LoseScreen : MonoBehaviour
     [SerializeField] CameraFolow cameraFolow;
     [SerializeField] GameObject faillScreen;
 
-    public void GoToFinish(Transform winner)
+    public void GoToFinish(Vector3 winner)
     {
         cameraFolow.enabled = false;
-        var winnerCamera = new Vector3(winner.position.x, transform.position.y, winner.position.z - 5.138f);
+        var winnerCamera = new Vector3(winner.x, transform.position.y, winner.z - 11);
         var moveCamera = DOTween.Sequence();
         moveCamera.Append(transform.DOMove(winnerCamera, 0.8f));
         moveCamera.AppendCallback(() => Lose());

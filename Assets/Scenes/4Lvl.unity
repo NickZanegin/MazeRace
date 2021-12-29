@@ -262,6 +262,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3910645624453958220, guid: e47ac9a679927c140a2383246c1c5059, type: 3}
   m_PrefabInstance: {fileID: 77725031}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &96708307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296916862438852725, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+  m_PrefabInstance: {fileID: 703787002152280426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &104112514
 GameObject:
   m_ObjectHideFlags: 0
@@ -21403,6 +21408,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8637772014303604797, guid: 3730cc6c735e5384b9a5f3782e7557be, type: 3}
   m_PrefabInstance: {fileID: 591324847}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &625872464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296916862170514234, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+  m_PrefabInstance: {fileID: 703787002152280426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &702093628
 GameObject:
   m_ObjectHideFlags: 0
@@ -21502,6 +21512,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2904753571873124372, guid: a4d45037c4c73fc4cb51abfde9b13db3, type: 3}
   m_PrefabInstance: {fileID: 748916361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &762201146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296916861561667722, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+  m_PrefabInstance: {fileID: 703787002152280426}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &762450560
 PrefabInstance:
@@ -27618,6 +27633,7 @@ GameObject:
   - component: {fileID: 1170872958}
   - component: {fileID: 1170872957}
   - component: {fileID: 1170872956}
+  - component: {fileID: 1170872959}
   m_Layer: 0
   m_Name: EnemyKeyBars
   m_TagString: Untagged
@@ -27707,6 +27723,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1170872959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170872954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0105fe8bbdc977d4cb42ea0c419cf85e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finish: {fileID: 3631569887943403806}
 --- !u!4 &1180784557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 703787002200935576, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
@@ -27858,6 +27887,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192081307}
   m_CullTransparentMesh: 1
+--- !u!4 &1204049048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296916862239388915, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+  m_PrefabInstance: {fileID: 703787002152280426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1218632477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38356,6 +38390,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4001985802429667807, guid: 2c83ea762da5e6540a89703a0055ac92, type: 3}
   m_PrefabInstance: {fileID: 1453747177}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1477591543 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296916862589549953, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+  m_PrefabInstance: {fileID: 703787002152280426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1485014469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38417,6 +38456,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2904753571873124372, guid: a4d45037c4c73fc4cb51abfde9b13db3, type: 3}
   m_PrefabInstance: {fileID: 1485014469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1486956881 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296916863201510234, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+  m_PrefabInstance: {fileID: 703787002152280426}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1505640129
 PrefabInstance:
@@ -38603,6 +38647,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2904753571873124372, guid: a4d45037c4c73fc4cb51abfde9b13db3, type: 3}
   m_PrefabInstance: {fileID: 1529983574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1564869797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4296916862277817642, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+  m_PrefabInstance: {fileID: 703787002152280426}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1570501534
 GameObject:
@@ -45315,6 +45364,38 @@ PrefabInstance:
       propertyPath: NuberKeyPoint.Array.data[2]
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: finished
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: points.Array.data[0]
+      value: 
+      objectReference: {fileID: 762201146}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: points.Array.data[1]
+      value: 
+      objectReference: {fileID: 1486956881}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: points.Array.data[2]
+      value: 
+      objectReference: {fileID: 1204049048}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: points.Array.data[3]
+      value: 
+      objectReference: {fileID: 625872464}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: points.Array.data[4]
+      value: 
+      objectReference: {fileID: 1477591543}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: points.Array.data[5]
+      value: 
+      objectReference: {fileID: 1564869797}
+    - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
+      propertyPath: points.Array.data[6]
+      value: 
+      objectReference: {fileID: 96708307}
     - target: {fileID: 8248331692393014083, guid: 1ed2313a16ac39b4f8bbd9578346b9b1, type: 3}
       propertyPath: NuberKeyPoint.Array.size
       value: 3

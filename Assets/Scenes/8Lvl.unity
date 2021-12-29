@@ -10737,6 +10737,7 @@ GameObject:
   - component: {fileID: 393250850}
   - component: {fileID: 393250849}
   - component: {fileID: 393250848}
+  - component: {fileID: 393250851}
   m_Layer: 0
   m_Name: EnemyKeyBars
   m_TagString: Untagged
@@ -10826,6 +10827,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &393250851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393250846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0105fe8bbdc977d4cb42ea0c419cf85e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finish: {fileID: 1871388986}
 --- !u!1001 &408790457
 PrefabInstance:
   m_ObjectHideFlags: 0

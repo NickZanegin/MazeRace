@@ -10,7 +10,7 @@ public class Finish : MonoBehaviour
 
     public Action eventWinn;
     public Action eventFaill;
-    public Action<Transform> eventFailCamera;
+    public Action<Vector3> eventFailCamera;
     public void OnTriggerEnter(Collider collision)
     {
         restart.SetActive(false);
@@ -25,7 +25,7 @@ public class Finish : MonoBehaviour
         {
             eventFaill?.Invoke();
             collision.gameObject.GetComponent<Animator>().SetBool("Finish", true);
-            eventFailCamera?.Invoke(collision.gameObject.transform);
+            eventFailCamera?.Invoke(collision.gameObject.transform.position);
         }
         bank.gameObject.SetActive(false);
     }

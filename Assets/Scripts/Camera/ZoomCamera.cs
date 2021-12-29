@@ -11,6 +11,7 @@ public class ZoomCamera : MonoBehaviour
     private void Start()
     {
         finish.eventWinn += Zoom;
+        finish.eventFaill += Zoom;
     }
     private void Zoom()
     {
